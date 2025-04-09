@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourExp - Яндекс Карты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/map-loader.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <header>
+                <h1>TourExp</h1>
+                <p>Интерактивная карта для вашего путешествия</p>
+            </header>
+            
+            <div class="coordinates">
+                <p>Координаты центра карты: <span id="coords">55.751244, 37.618423</span></p>
+            </div>
+            
+            <div class="controls">
+                <button id="zoomOut">Уменьшить</button>
+                <button id="zoomDefault">Стандарт</button>
+                <button id="zoomIn">Приблизить</button>
+            </div>
+        </aside>
+        
+        <main id="map"></main>
+    </div>
+
+    <script src="js/map.js" defer></script>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
